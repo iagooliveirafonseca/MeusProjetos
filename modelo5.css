@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 1170px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+header {
+    width: 1170px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    background-color: blueviolet;
+}
+
+#logo{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    margin-left:  10px;
+}
+
+#menu{
+    width: 800px;
+    height: 90px;
+    background-color: red;
+}
+
+#redes {
+    width: 240px;
+    height: 100px;
+    margin-left: 560px;
+    margin-top: 76px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+#redes > div {
+    width: 70px;
+    height: 100px;
+    background-color: mediumblue;
+}
+
+main {
+    width: 1170px;
+
+}
+
+#sec1 {
+    width: 1170px;
+    height: 720px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+
+#sec1 > article{
+    width: 370px;
+    height: 720px;
+    margin-top: 20px;
+  
+    background-color: midnightblue;
+}
+
+#sec2{
+    width: 1170px;
+    height: 490px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+#sec2 > article {
+    width: 575px;
+    height: 490px;
+      background-color: orangered;
+}
+
+#sec3 {
+    width: 1170px;
+    height: 720px;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sec3 > article {
+    width: 365px;
+    height: 545px;
+    background-color: mediumspringgreen;
+}
+
+#sec4 {
+    width: 1170px;
+    height: 330px;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+#sec4 > div {
+    width: 270px;
+    height: 330px;
+    background-color: yellow;
+
+}
+
+footer{
+    width: 1170px;
+    height: 200px;
+    background-color: chartreuse;
+    margin-top: 20px;
+}

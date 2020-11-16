@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1270px;
+    margin: 0 auto;
+    background-color: blueviolet;
+   
+}
+
+aside {
+    width: 400px;
+    height: 1500px;
+    background-color: aqua;
+}
+
+header {
+    width: 800px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    background-color: springgreen;
+}
+
+#sec1 {
+    width: 800px;
+    height: 450px;
+    margin-top: 20px; 
+    flex-flow: column wrap;
+}
+
+
+#sec1 > nav { 
+    width: 800px;
+    height: 150px;
+    background-color: violet;
+}
+
+#sec2{
+    width: 340px;
+    height: 1140px;
+    display: flex;
+    flex-flow: column nowrap
+}
+
+#sec2 > div {
+    width: 340px;
+    height: 285px;
+    background-color: yellow;
+    
+}
